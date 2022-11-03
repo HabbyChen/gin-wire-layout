@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package v1.demo;
+
+
+option go_package = "gin-layout/api/v1/demo;demo";
+option java_multiple_files = true;
+
+
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}

@@ -16,6 +16,6 @@ func NewGreeterService() *GreeterService {
 }
 
 func (s *GreeterService) SayHello(ctx *gin.Context) {
-
+	//var req demo.HelloRequest
 	ctx.String(200, "Hello World")
 }
