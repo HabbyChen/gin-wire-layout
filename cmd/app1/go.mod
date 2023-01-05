@@ -1,4 +1,4 @@
-module gin-layout
+module gin-layout/cmd/app1
 
 go 1.19
 
